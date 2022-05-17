@@ -1,0 +1,24 @@
+
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Adventure Weather</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="app">
+        <label for="zip" class="search-header">Going on an <span>adventure</span> ?<br>Check the <span>weather</span> .</label><br><br>
+        <input id="zip" class="zip-input" name="zip" placeholder="Enter zip code here"><br><br>
+        <textarea id="feelings" class="feelings-input" placeholder="How will you take advantage of today's weather?" rows="9" cols="50"></textarea><br><br>
+        <button id = "generate" class="go-button">GO</button><br><br><br><br>
+        <div id="searchResults"></div>
+    </div>
+    <script src='app.js'></script>
+</body>
+</html>
