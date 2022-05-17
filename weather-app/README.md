@@ -1,4 +1,4 @@
-# Gabriel's Weather API Project ### via Udacity
+# Gabriel's Weather API Project via Udacity
 
 ## Purpose of this Project
 
